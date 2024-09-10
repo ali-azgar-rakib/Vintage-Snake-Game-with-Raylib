@@ -1,0 +1,1 @@
+/usr/bin/g++ CMakeFiles/snake.dir/main.cpp.o CMakeFiles/snake.dir/src/body/food.cpp.o -o snake  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.so -L/usr/local/lib -lraylib 
