@@ -177,6 +177,30 @@ src/body/food.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/food.cpp.s
 .PHONY : src/body/food.cpp.s
 
+src/body/snake.o: src/body/snake.cpp.o
+.PHONY : src/body/snake.o
+
+# target to build an object file
+src/body/snake.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/snake.cpp.o
+.PHONY : src/body/snake.cpp.o
+
+src/body/snake.i: src/body/snake.cpp.i
+.PHONY : src/body/snake.i
+
+# target to preprocess a source file
+src/body/snake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/snake.cpp.i
+.PHONY : src/body/snake.cpp.i
+
+src/body/snake.s: src/body/snake.cpp.s
+.PHONY : src/body/snake.s
+
+# target to generate assembly for a file
+src/body/snake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/snake.cpp.s
+.PHONY : src/body/snake.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/body/food.o"
 	@echo "... src/body/food.i"
 	@echo "... src/body/food.s"
+	@echo "... src/body/snake.o"
+	@echo "... src/body/snake.i"
+	@echo "... src/body/snake.s"
 .PHONY : help
 
 

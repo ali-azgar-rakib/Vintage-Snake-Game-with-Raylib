@@ -8,5 +8,10 @@
   "directory": "/mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/build",
   "command": "/usr/bin/g++   -I/usr/local/include -o CMakeFiles/snake.dir/src/body/food.cpp.o -c /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/body/food.cpp",
   "file": "/mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/body/food.cpp"
+},
+{
+  "directory": "/mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/build",
+  "command": "/usr/bin/g++   -I/usr/local/include -o CMakeFiles/snake.dir/src/body/snake.cpp.o -c /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/body/snake.cpp",
+  "file": "/mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/body/snake.cpp"
 }
 ]

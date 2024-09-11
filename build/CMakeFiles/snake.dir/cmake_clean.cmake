@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/snake.dir/main.cpp.o.d"
   "CMakeFiles/snake.dir/src/body/food.cpp.o"
   "CMakeFiles/snake.dir/src/body/food.cpp.o.d"
+  "CMakeFiles/snake.dir/src/body/snake.cpp.o"
+  "CMakeFiles/snake.dir/src/body/snake.cpp.o.d"
   "snake"
   "snake.pdb"
 )
