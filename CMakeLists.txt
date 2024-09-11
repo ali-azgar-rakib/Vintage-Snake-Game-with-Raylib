@@ -15,6 +15,8 @@ add_executable(${PROJECT_NAME}
                             ./main.cpp
                             ./src/body/food.cpp
                             ./src/body/snake.cpp
+                            ./src/body/global.cpp
+                            ./src/body/game.cpp
                             )
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)

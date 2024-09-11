@@ -1,1 +1,1 @@
-/usr/bin/g++ CMakeFiles/snake.dir/main.cpp.o CMakeFiles/snake.dir/src/body/food.cpp.o CMakeFiles/snake.dir/src/body/snake.cpp.o -o snake  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.so -L/usr/local/lib -lraylib 
+/usr/bin/g++ CMakeFiles/snake.dir/main.cpp.o CMakeFiles/snake.dir/src/body/food.cpp.o CMakeFiles/snake.dir/src/body/snake.cpp.o CMakeFiles/snake.dir/src/body/global.cpp.o CMakeFiles/snake.dir/src/body/game.cpp.o -o snake  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.so -L/usr/local/lib -lraylib 

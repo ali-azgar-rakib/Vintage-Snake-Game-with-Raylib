@@ -177,6 +177,54 @@ src/body/food.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/food.cpp.s
 .PHONY : src/body/food.cpp.s
 
+src/body/game.o: src/body/game.cpp.o
+.PHONY : src/body/game.o
+
+# target to build an object file
+src/body/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/game.cpp.o
+.PHONY : src/body/game.cpp.o
+
+src/body/game.i: src/body/game.cpp.i
+.PHONY : src/body/game.i
+
+# target to preprocess a source file
+src/body/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/game.cpp.i
+.PHONY : src/body/game.cpp.i
+
+src/body/game.s: src/body/game.cpp.s
+.PHONY : src/body/game.s
+
+# target to generate assembly for a file
+src/body/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/game.cpp.s
+.PHONY : src/body/game.cpp.s
+
+src/body/global.o: src/body/global.cpp.o
+.PHONY : src/body/global.o
+
+# target to build an object file
+src/body/global.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/global.cpp.o
+.PHONY : src/body/global.cpp.o
+
+src/body/global.i: src/body/global.cpp.i
+.PHONY : src/body/global.i
+
+# target to preprocess a source file
+src/body/global.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/global.cpp.i
+.PHONY : src/body/global.cpp.i
+
+src/body/global.s: src/body/global.cpp.s
+.PHONY : src/body/global.s
+
+# target to generate assembly for a file
+src/body/global.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/src/body/global.cpp.s
+.PHONY : src/body/global.cpp.s
+
 src/body/snake.o: src/body/snake.cpp.o
 .PHONY : src/body/snake.o
 
@@ -216,6 +264,12 @@ help:
 	@echo "... src/body/food.o"
 	@echo "... src/body/food.i"
 	@echo "... src/body/food.s"
+	@echo "... src/body/game.o"
+	@echo "... src/body/game.i"
+	@echo "... src/body/game.s"
+	@echo "... src/body/global.o"
+	@echo "... src/body/global.i"
+	@echo "... src/body/global.s"
 	@echo "... src/body/snake.o"
 	@echo "... src/body/snake.i"
 	@echo "... src/body/snake.s"

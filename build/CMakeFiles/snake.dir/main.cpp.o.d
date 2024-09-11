@@ -1,10 +1,12 @@
 CMakeFiles/snake.dir/main.cpp.o: \
  /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/main.cpp \
  /usr/include/stdc-predef.h \
- /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/header/food.h \
+ /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/header/game.h \
+ /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/header/../header/global.h \
  /usr/local/include/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/header/snake.h \
+ /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/header/./food.h \
+ /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/header/./snake.h \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -43,4 +45,5 @@ CMakeFiles/snake.dir/main.cpp.o: \
  /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/initializer_list \
  /usr/include/c++/11/bits/range_access.h \
- /usr/include/c++/11/bits/deque.tcc
+ /usr/include/c++/11/bits/deque.tcc \
+ /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/header/global.h

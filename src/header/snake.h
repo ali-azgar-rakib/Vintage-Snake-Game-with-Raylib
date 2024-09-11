@@ -7,7 +7,7 @@ public:
   int cellSize{};
   Vector2 direction{1, 0};
 
-  Snake(int);
+  Snake(int cellSize);
 
   void Draw(Color color);
 
