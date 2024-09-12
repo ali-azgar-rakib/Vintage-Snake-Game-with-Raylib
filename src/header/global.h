@@ -9,3 +9,5 @@ extern int cellCount;
 extern double lastUpdateTime;
 
 extern Image image;
+
+extern int offset;

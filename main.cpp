@@ -6,7 +6,8 @@ bool eventTrigger(double interval);
 
 int main() {
 
-  InitWindow(cellSize * cellCount, cellSize * cellCount, "Snanke Game");
+  InitWindow(2 * offset + cellSize * cellCount,
+             2 * offset + cellSize * cellCount, "Snanke Game");
   SetTargetFPS(60);
 
   Game game;
@@ -16,6 +17,11 @@ int main() {
     BeginDrawing();
     game.Draw();
     ClearBackground(green);
+    DrawRectangleLinesEx(Rectangle{(float)offset - 5, (float)offset - 5,
+                                   (float)cellCount * cellSize + 10,
+                                   (float)cellSize * cellCount + 10},
+                         5.f, WHITE);
+    DrawText("Snake", offset, 20, 36, WHITE);
     if (eventTrigger(0.2)) {
       game.Update();
     }

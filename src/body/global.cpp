@@ -9,3 +9,5 @@ int cellCount = 25;
 
 double lastUpdateTime = 0;
 Image image = LoadImage("../graphics/food.png");
+
+int offset = 75;

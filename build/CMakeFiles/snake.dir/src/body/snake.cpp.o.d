@@ -42,6 +42,7 @@ CMakeFiles/snake.dir/src/body/snake.cpp.o: \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/deque.tcc /usr/local/include/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+ /mnt/3C14D7F414D7AF60/code/c++/raylib_projects/snake/src/body/../header/global.h \
  /usr/local/include/raymath.h /usr/include/c++/11/math.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
